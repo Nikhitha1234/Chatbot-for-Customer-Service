@@ -1,0 +1,72 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title IT Customer Support
+    // CSS
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500')
+    link(rel='stylesheet', href='assets/bootstrap/css/bootstrap.min.css')
+    link(rel='stylesheet', href='assets/font-awesome/css/font-awesome.min.css')
+    link(rel='stylesheet', href='assets/css/form-elements.css')
+    link(rel='stylesheet', href='assets/css/style.css')
+    // HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries 
+    // WARNING: Respond.js doesn't work if you view the page via file://
+    //if lt IE 9
+      script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+      script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
+    // Favicon and touch icons
+    link(rel='shortcut icon', href='assets/ico/favicon.png')
+    link(rel='apple-touch-icon-precomposed', sizes='144x144', href='assets/ico/apple-touch-icon-144-precomposed.png')
+    link(rel='apple-touch-icon-precomposed', sizes='114x114', href='assets/ico/apple-touch-icon-114-precomposed.png')
+    link(rel='apple-touch-icon-precomposed', sizes='72x72', href='assets/ico/apple-touch-icon-72-precomposed.png')
+    link(rel='apple-touch-icon-precomposed', href='assets/ico/apple-touch-icon-57-precomposed.png')
+    style.
+      .parallax {
+      /* The image used */
+      background-image: url("assets/img/cust-service.jpg");
+      opacity: 0.7;
+      /* Set a specific height */
+      min-height: 700px;
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+  body
+    // Top content
+    //
+      <div class="parallax">
+      <h1> <a class="page-scroll" href="#form"> Deploy</a> </h1>
+      </div>
+    section#form.top-content
+      .inner-bg
+        .container
+          .row
+            .col-sm-8.col-sm-offset-2.text
+              h1
+                strong Chat Bot
+          .row
+            .col-sm-6.col-sm-offset-3.form-box
+              .form-top
+                .form-top-left
+                  h3 Login
+                 
+              .form-bottom
+                form.login-form(role='form', action='/', method='post')
+                  .form-group
+                    label.sr-only(for='form-username') Name
+                    input#form-username.form-username.form-control(type='text', name='username1', placeholder='Enter Your Name')
+                  .form-group
+                    label.sr-only(for='form-password') Email Address
+                    input#form-password.form-password.form-control(type='text', name='username', placeholder='Enter Your Email Address')
+                  button.btn(type='submit') Submit!
+    // Javascript
+    script(src='assets/js/jquery-1.11.1.min.js')
+    script(src='assets/bootstrap/js/bootstrap.min.js')
+    script(src='assets/js/jquery.backstretch.min.js')
+    script(src='assets/js/scripts.js')
+    //if lt IE 10
+      script(src='assets/js/placeholder.js')

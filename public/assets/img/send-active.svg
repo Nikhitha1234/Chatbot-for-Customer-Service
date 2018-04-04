@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 22px;
+      }
+
+      .cls-2 {
+        fill: #4d85d1;
+        font-family: "FontAwesome";
+      }
+    </style>
+  </defs>
+  <text y="19" class="cls-1"><tspan class="cls-2"></tspan></text>
+</svg>
